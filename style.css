@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+#bg nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+}
+#bg nav #logo{
+    width: 200px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bg nav #logo .icon{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+#bg nav #logo .icon i{
+    font-size: 20px;
+    color: #fff;
+}
+#bg nav #logo .icon #arrow2{
+    transform: rotate(-90deg);
+    margin-left: 10px;
+}
+#bg nav #logo .icon #arrow3{
+    transform: rotate(90deg);
+}
+#bg nav #logo h2{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+#bg nav .center{
+    width:  calc(100% - 400px);
+    height: 100%;
+    display: flex;
+}
+#bg nav .center #links{
+    width: 650px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 50px;
+}
+#bg nav .center #links a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#bg nav #button{
+    width: 200px;
+    height: 100%;
+    background-color: #4834d4;
+}
+#bg nav #button button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    transition: .5s;
+}
+#bg nav .center .serach{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: calc(100% - 650px) ;
+    padding-right: 50px;
+}
+#bg nav .center .serach input{
+    height: 40px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4834d4;
+    color: #4834d4;
+}
+#bg nav .center .serach i{
+color: #4834d4;
+margin-left: 10px;
+}
+#bg nav #button button:hover{
+    background-color: #fff;
+    color: #4834d4;
+    border-left: 2px solid #4834d4;
+    border-right: 2px solid #4834d4;
+}
+#bg .content{
+width: 100%;
+height: calc(100% - 80px);
+display: flex;
+align-items: center;
+padding: 0 200px;
+}
+#bg .content .container{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+#bg .content .container h2{
+    font-size: 50px;
+}
+#bg .content .container p{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#bg .content .container .button{
+width: 100%;
+height: 50px;
+}
+#bg .content .container .button button{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+#bg .content .container .button #order{
+    background-color: #4834d4;
+    color: #fff;
+    transition: .5s;
+}
+#bg .content .container .button #order:hover{
+    background-color: #fff;
+    color: #4834d4;
+}
+#bg .content .container .button #contact{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 20px;
+}
+
+#bg .content .container .button #contact:hover{
+    background-color: #ffffff;
+    color: #4834d4;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+#container1{
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+#container1 .content{
+    width: 90%;
+    height: 70%;
+    display: flex;
+}
+#container1 .content #text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#container1 .content #text h2{
+    font-size: 2.5rem;
+}
+#container1 .content #text p{
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgb(46, 46, 46);
+    margin-top: 70px;
+}
+#container1 .content #text button{
+    background-color: #4834d4;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    border: none;
+    outline: none;
+    width: 250px;
+    transition: .5s;
+}
+#container1 .content #text button:hover{
+    background-color: #fff;
+    border: 1px solid #4834d4;
+    color: #4834d4;
+}
+
+
+#container1 .content #cards{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+#container1 .content #cards .card{
+    width: 250px;
+    height: 230px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transition: .5s;
+}
+#container1 .content #cards .card:hover{
+    background-color: #4834d4;
+    color: #fff;
+}
+#container1 .content #cards .card h2{
+    font-size: 1.2rem;
+}
+#container1 .content #cards .card p{
+    font-size: .9rem;
+}
+#container1 .content #cards .card a{
+    text-decoration: none;
+    color: #4834d4;
+    font-size: 14px;
+    font-weight: 400;
+}
+#container1 .content #cards .card:hover a{
+    color: #fff;
+}
+#container2{
+    background-color: #4834d4;
+    display: flex;
+}
+#container2 #left{
+    width: 50%;
+    height: 100%;
+}
+#container2 #left #top{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+#container2 #left #top h2{
+    font-size: 2.5rem;
+    color: #fff;
+}
+#container2 #left #card{
+    height: calc(100% - 200px);
+    width: 100%;
+    padding-left: 100px;
+    display:flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center ;
+}
+#container2 #left #card .card{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+#container2 #left #card .card #img{
+    width: 70px;
+    height: 70px;
+}
+#container2 #left #card .card #img img{
+    width: 70px;
+    height: 70px;
+    filter: invert(100);
+}
+#container2 #left #card .card h3{
+    font-size: 17px;
+    color: #fff;
+}
+#container2 #left #card .card p{
+    font-size: 12px;
+    color: #fff;
+}
+#container2 #right{
+    width: 50%;
+    height: 100%;
+}
+#container2 #right #top{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 220px;
+}
+#container2 #right #top p{
+    font-size: 15px;
+    color: #fff;
+}
+#container2 #right #bottom{
+    height: 550px;
+    width: 100%;
+    display: flex;
+}
+#container2 #right #bottom .client{
+    height: 100%;
+    width: 300px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container2 #right #bottom .client .content{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+#container2 #right #bottom .client .content h2{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+#container2 #right #bottom .client .content h2 span{
+    font-size: 30px;
+}
+#container2 #right #bottom .client .content button{
+    background-color: #4834d4;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    transition: .5s;
+}
+#container2 #right #bottom .client .content button:hover{
+    background-color: #fff;
+    color: #4834d4;
+}
+#container2 #right #bottom #img{
+    width: calc(100% - 300px);
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1640622299485-7fef00b3dc24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8NTF8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+#container2 #right #bottom #img #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+#container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container3 .content{
+    width: 80%;
+    height: 90%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+#container3 .content h2{
+    font-size: 2rem;
+}
+#container3 .content .cards{
+width: 100%;
+height: 430px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#container3 .content .cards .card{
+    width: 380px;
+    height: 100%;
+}
+#container3 .content .cards .card .img{
+    width: 100%;
+    height: 280px;
+    filter: grayscale(50);
+}
+#container3 .content .cards .card #img1{
+    background-image: url('https://media.istockphoto.com/photos/woman-at-home-sofa-sitting-stock-photo-picture-id1284954462?b=1&k=20&m=1284954462&s=170667a&w=0&h=Y313g3YuZAaU0xYTlHvHTHxY3DPWMKHRu1GpSQQDd-Y=');
+}
+#container3 .content .cards .card #img2{
+    background-image: url('https://media.istockphoto.com/photos/technology-greatly-assists-with-all-her-duties-picture-id1302846280?b=1&k=20&m=1302846280&s=170667a&w=0&h=2cmoZO8tr3YrvWGoOOw25lCrDRWHARyjCaoybPOpgZo=');
+}
+#container3 .content .cards .card #img3{
+    background-image: url('https://media.istockphoto.com/photos/woman-working-on-laptop-at-desk-laptop-mockup-picture-id1308589738?b=1&k=20&m=1308589738&s=170667a&w=0&h=8GqjF5m0f0xmInb94jesqayPMP5Q2fH3kxA0fvZN_nw=');
+}
+#container3 .content .cards .card .text{
+    width: 100%;
+    height: calc(100% - 280px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+#container3 .content .cards .card .text h2{
+font-size: 16px;
+}
+#container3 .content .cards .card .text p{
+    font-size: 13px;
+    font-weight: 400;
+}
+#container3 .content .cards .card .text a{
+    font-size: 14px;
+    text-decoration: none;
+}
+#container3 .content .button{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #container3 .content .button button{
+    background-color: #4834d4;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    transition: .5s;
+    }
+    #container3 .content .button button:hover{
+        background-color: #fff;
+        color: #4834d4;
+    }
+    section{
+        width: 100%;
+        height: 500px;
+       background-image: url('https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+   .overlay{
+       width:100%;
+       height: 100%;
+       background-color: rgba(0, 0, 0, 0.808);
+   }
